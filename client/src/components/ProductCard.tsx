@@ -51,7 +51,7 @@ export function ProductCard({ title, description, price, inStock, category, onBu
       </p>
 
       {/* Price and CTA */}
-      <div className="flex items-center justify-between mt-auto pt-4 border-t border-border/50">
+      <div className="flex items-center justify-between mt-auto pt-4 border-t border-border/50 gap-4">
         <div className="flex flex-col">
           <span className="text-xs text-muted-foreground mb-1">Price</span>
           <span className="text-2xl font-bold gradient-text">
@@ -59,7 +59,8 @@ export function ProductCard({ title, description, price, inStock, category, onBu
           </span>
         </div>
         <Button 
-          className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity duration-300 shadow-lg w-full"
+          className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity duration-300 shadow-lg flex-shrink-0"
+          size="sm"
           disabled={!inStock}
           onClick={onBuyNow}
         >
