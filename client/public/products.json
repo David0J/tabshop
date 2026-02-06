@@ -1,0 +1,194 @@
+[
+  {
+    "id": 1,
+    "title": "Giftcard & Log Shops 50-70% off",
+    "description": "10+ Private Shops, Visa Giftcards 50 - 60% OFF / Logs /CCs",
+    "price": 9.99,
+    "inStock": true,
+    "category": "finance"
+  },
+  {
+    "id": 2,
+    "title": "Starter Bundle",
+    "description": "Get everything you need to start making money !",
+    "price": 14.99,
+    "inStock": true,
+    "category": "bundle"
+  },
+  {
+    "id": 3,
+    "title": "Cr4cking Guide / Group",
+    "description": "We are dropping every few days in the channel ! Configs, video tutorials and other sources you need for cracking.",
+    "price": 19.99,
+    "inStock": true,
+    "category": "tools"
+  },
+  {
+    "id": 4,
+    "title": "CC Sites",
+    "description": "Best CC Sites on the market right now & Guide on how to use cards, which cards to buy and what is easy to hit, easy sites included aswell !",
+    "price": 19.99,
+    "inStock": true,
+    "category": "finance"
+  },
+  {
+    "id": 5,
+    "title": "CC Cashout",
+    "description": "Learn how to cashout cards ! Many guides included with step by step instructions.",
+    "price": 14.99,
+    "inStock": true,
+    "category": "finance"
+  },
+  {
+    "id": 6,
+    "title": "CC TO Crypto",
+    "description": "Learn how to cashout cards to crypto ! Easy to hit and NO KYC until certain amount, some sites are fully NO KYC !",
+    "price": 14.99,
+    "inStock": true,
+    "category": "finance"
+  },
+  {
+    "id": 7,
+    "title": "Private Bins",
+    "description": "Best and most important PRIVATE bins, frequently updated to avoid overusing the same bins. WORLDWIDE Selection !",
+    "price": 14.99,
+    "inStock": true,
+    "category": "tools"
+  },
+  {
+    "id": 8,
+    "title": "Uber Eats Free Food Premium Method / no ban [ Most Food Apps ]",
+    "description": "Learn how to refund UberEats and many other food places !",
+    "price": 9.99,
+    "inStock": true,
+    "category": "guides"
+  },
+  {
+    "id": 9,
+    "title": "Refund Guides [ Amazon, Paypal, Zalando, Temu, Shein, Asos ]",
+    "description": "Starting from 9.99$ !",
+    "price": 34.99,
+    "inStock": true,
+    "category": "guides"
+  },
+  {
+    "id": 10,
+    "title": "Become Clothes Shoes Perfumes Reseller",
+    "description": "Start Your Reselling Journey With Best Suppliers !",
+    "price": 19.99,
+    "inStock": true,
+    "category": "reseller"
+  },
+  {
+    "id": 11,
+    "title": "Become Electronics Reseller",
+    "description": "Dyson, Iphone, Samsung, Airpods, JBL and lot of others..",
+    "price": 14.99,
+    "inStock": true,
+    "category": "reseller"
+  },
+  {
+    "id": 12,
+    "title": "Free Accounts and Methods",
+    "description": "Best Knowledge Source on the market. This will help you find any type of service & method or site that you need !",
+    "price": 9.99,
+    "inStock": true,
+    "category": "tools"
+  },
+  {
+    "id": 13,
+    "title": "18 + Bot / Deepfake Bot",
+    "description": "Best Deepfakes you will ever seen ! AI Video, Undress, Clothes Change, whatever you want and whoever you want to do.",
+    "price": 9.99,
+    "inStock": true,
+    "category": "tools"
+  },
+  {
+    "id": 14,
+    "title": "Become OF Manager",
+    "description": "Learn the basics and start with your model ! Get a Job in OF Field or Start Your Own AI Model or Real Model. Best chats and marketplaces included.",
+    "price": 14.99,
+    "inStock": true,
+    "category": "guides"
+  },
+  {
+    "id": 15,
+    "title": "E-Whoring",
+    "description": "Get SKILLED in E-Whoring ! Everything you need is included, one of the few hustles that can be scaled to 10k+ a month.",
+    "price": 14.99,
+    "inStock": true,
+    "category": "guides"
+  },
+  {
+    "id": 16,
+    "title": "SMM Panel",
+    "description": "Get BEST and CHEAPEST Panels !",
+    "price": 9.99,
+    "inStock": true,
+    "category": "marketing"
+  },
+  {
+    "id": 17,
+    "title": "Virtual Credit Card",
+    "description": "NO KYC",
+    "price": 9.99,
+    "inStock": true,
+    "category": "finance"
+  },
+  {
+    "id": 18,
+    "title": "Advertisement Groups",
+    "description": "Best groups to reach new customers !",
+    "price": 9.99,
+    "inStock": true,
+    "category": "marketing"
+  },
+  {
+    "id": 19,
+    "title": "Advertising Master",
+    "description": "Level UP Your Advertisement ! Reach is Guaranteed !",
+    "price": 14.99,
+    "inStock": true,
+    "category": "marketing"
+  },
+  {
+    "id": 20,
+    "title": "Fullz (FULL INFO + SELFIE + ID) (READ DESCRIPTION)",
+    "description": "Premium digital product",
+    "price": 9.99,
+    "inStock": true,
+    "category": "tools"
+  },
+  {
+    "id": 21,
+    "title": "ID's",
+    "description": "FRONT BACK SELFIE",
+    "price": 4.99,
+    "inStock": true,
+    "category": "tools"
+  },
+  {
+    "id": 22,
+    "title": "Unlimited Phone Numbers Method",
+    "description": "Free Phone Numbers for USA !",
+    "price": 4.99,
+    "inStock": true,
+    "category": "tools"
+  },
+  {
+    "id": 23,
+    "title": "Money Maker Bundle",
+    "description": "We combined our best products for making money in one bundle to help you start making money fast.",
+    "price": 34.99,
+    "inStock": true,
+    "category": "bundle"
+  },
+  {
+    "id": 24,
+    "title": "Elite Pack",
+    "description": "Buy EVERYTHING you want, all in one !",
+    "price": 199.99,
+    "inStock": true,
+    "category": "bundle"
+  }
+]
