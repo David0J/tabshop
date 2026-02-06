@@ -46,7 +46,7 @@ export default function Home() {
               <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                 <Zap className="w-6 h-6 text-white" />
               </div>
-              <span className="text-xl font-bold gradient-text">SauceyShop</span>
+              <span className="text-xl font-bold gradient-text">TabShop</span>
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-sm text-foreground hover:text-primary transition-colors">Home</a>
@@ -74,15 +74,15 @@ export default function Home() {
           <div className="max-w-4xl mx-auto text-center">
             <div className="inline-flex items-center space-x-2 px-4 py-2 rounded-full glass-card mb-8">
               <Star className="w-4 h-4 text-accent" fill="currentColor" />
-              <span className="text-sm text-foreground">#1 trusted digital marketplace since 2022</span>
+              <span className="text-sm text-foreground">#1 trusted guide marketplace since 2023</span>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Your <span className="gradient-text">Digital Plug</span> for Proven<br />
-              Money Making Tools
+              Your <span className="gradient-text">Go-To Resource</span> for<br />
+              Money Making Guides
             </h1>
             <p className="text-lg md:text-xl text-muted-foreground mb-10 max-w-2xl mx-auto leading-relaxed">
-              Access exclusive tools, guides, and reseller packs built to help you earn worldwide. 
-              Every product is tested, verified, and updated — so you never miss a new opportunity.
+              Discover proven strategies, in-depth guides, and actionable methods to build multiple income streams. 
+              Every guide is researched, tested, and regularly updated with the latest opportunities.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
               <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-lg px-8 py-6 luxury-shadow">
@@ -101,16 +101,16 @@ export default function Home() {
         <div className="container">
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
             <div className="glass-card rounded-2xl p-8 text-center luxury-shadow">
-              <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">5K+</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wider">Satisfied Customers</div>
+              <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">8K+</div>
+              <div className="text-sm text-muted-foreground uppercase tracking-wider">Active Members</div>
             </div>
             <div className="glass-card rounded-2xl p-8 text-center luxury-shadow">
               <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">5.0</div>
               <div className="text-sm text-muted-foreground uppercase tracking-wider">Rating of Our Products</div>
             </div>
             <div className="glass-card rounded-2xl p-8 text-center luxury-shadow">
-              <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">2022</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wider">We Make People 💸 Since</div>
+              <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">2023</div>
+              <div className="text-sm text-muted-foreground uppercase tracking-wider">Trusted Since</div>
             </div>
           </div>
         </div>
@@ -130,36 +130,36 @@ export default function Home() {
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-6">
                 <Globe className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Global-ready catalog</h3>
+              <h3 className="text-xl font-semibold mb-3">Global Opportunities</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Every product functions worldwide so you can plug in from any country. Even Giftcard Shops include options beyond the US.
+                Our guides cover money-making methods that work worldwide. Whether you're in North America, Europe, Asia, or anywhere else, find strategies tailored to your region.
               </p>
             </div>
             <div className="glass-card rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-accent to-primary flex items-center justify-center mb-6">
                 <TrendingUp className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Long-term money blueprints</h3>
+              <h3 className="text-xl font-semibold mb-3">Sustainable Income Strategies</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Build durable income streams with kits like Make Money With Your Own Shop, Reseller Packs, and OF Manager playbooks.
+                Learn how to build passive income, start side hustles, and create multiple revenue streams that compound over time.
               </p>
             </div>
             <div className="glass-card rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary via-accent to-primary flex items-center justify-center mb-6">
                 <Zap className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Quick flip toolset</h3>
+              <h3 className="text-xl font-semibold mb-3">Quick-Start Methods</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Need speed? Grab Giftcard Shops, CC Sites, or CC to Crypto to unlock fast wins and instant value.
+                Get started immediately with our quick-reference guides. See results within days, not months.
               </p>
             </div>
             <div className="glass-card rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
               <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-accent via-primary to-accent flex items-center justify-center mb-6">
                 <ShieldCheck className="w-7 h-7 text-white" />
               </div>
-              <h3 className="text-xl font-semibold mb-3">Proven community trust</h3>
+              <h3 className="text-xl font-semibold mb-3">Community-Verified Content</h3>
               <p className="text-muted-foreground leading-relaxed">
-                Operating since 2022 with hundreds of satisfied buyers—this shop is the evolved version of our legacy.
+                Trusted by thousands of members worldwide. Our guides are continuously updated based on real-world results and community feedback.
               </p>
             </div>
           </div>
@@ -170,12 +170,12 @@ export default function Home() {
       <section id="products" className="py-24 bg-gradient-to-b from-transparent to-secondary/10">
         <div className="container">
           <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Product Catalog</h2>
+            <h2 className="text-4xl md:text-5xl font-bold mb-4">Our Guides</h2>
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Pick the plays that stay winning
+              Explore proven money-making strategies
             </p>
             <p className="text-sm text-muted-foreground mt-2">
-              Every offer ships after the crew signs off, so you can lock in the next move and get paid faster.
+              Each guide includes step-by-step instructions, real examples, and actionable tactics you can implement today.
             </p>
           </div>
           
@@ -206,40 +206,34 @@ export default function Home() {
           <Accordion type="single" collapsible className="space-y-4">
             <AccordionItem value="item-1" className="glass-card rounded-xl px-6 border-0">
               <AccordionTrigger className="text-lg font-semibold hover:text-primary">
-                Are products that are on the shop worldwide?
+                Are these guides applicable worldwide?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                Yes! Every product in our catalog is designed to work worldwide. Whether you're in the US, Europe, Asia, or anywhere else, 
-                our tools and guides are accessible and functional globally. Even our Giftcard Shops include options beyond the US market.
+                Absolutely! Our guides are designed for a global audience. While some methods are region-specific, we provide alternatives and adaptations for different countries. Most strategies work in North America, Europe, and Asia with minor adjustments.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-2" className="glass-card rounded-xl px-6 border-0">
               <AccordionTrigger className="text-lg font-semibold hover:text-primary">
-                I want to make money! What should I buy?
+                Which guide should I start with?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                We recommend starting with our Starter Bundle ($14.99) which gives you everything you need to begin. 
-                For long-term income, check out our Reseller Packs or the Money Maker Bundle. If you want everything, 
-                the Elite Pack ($199.99) includes our complete catalog.
+                Start with our Starter Bundle ($14.99) for a comprehensive overview of multiple methods. If you prefer quick wins, try our Quick-Start guides. For building long-term wealth, explore our Sustainable Income Strategies bundle. Each guide is self-contained, so you can pick what interests you most.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-3" className="glass-card rounded-xl px-6 border-0">
               <AccordionTrigger className="text-lg font-semibold hover:text-primary">
-                How can I make money quick?
+                How long before I see results?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                For quick wins, we recommend our Giftcard Shops (50-70% off), CC to Crypto guides, or our Refund Guides. 
-                These products are designed for fast implementation and immediate value. Many customers see results within days.
+                It depends on the method. Quick-start guides can show results within days, while sustainable income strategies take 2-4 weeks to establish. Most members report their first earnings within the first week of implementation. Success depends on effort and consistency.
               </AccordionContent>
             </AccordionItem>
             <AccordionItem value="item-4" className="glass-card rounded-xl px-6 border-0">
               <AccordionTrigger className="text-lg font-semibold hover:text-primary">
-                How can I be sure this shop is legitimate?
+                Are these guides legitimate and legal?
               </AccordionTrigger>
               <AccordionContent className="text-muted-foreground leading-relaxed">
-                We've been operating since 2022 with over 5,000 satisfied customers and a 5.0 rating. 
-                Every product is tested and verified before being listed. We stand behind everything we sell, 
-                and our reputation speaks for itself. Check our testimonials and community feedback.
+                Yes. All our guides cover legal, ethical money-making methods. We've been trusted since 2023 by thousands of members worldwide. Every guide is thoroughly researched and tested before publication. We don't promote anything illegal or unethical.
               </AccordionContent>
             </AccordionItem>
           </Accordion>
@@ -254,30 +248,29 @@ export default function Home() {
             <h3 className="text-xl font-semibold mb-4 text-primary">General Terms And Conditions</h3>
             <div className="space-y-4 text-muted-foreground leading-relaxed">
               <p>
-                As a buyer of SauceyShop's products and services, it is your obligation and responsibility to read 
-                the terms of service in their entirety. By reading, conceptualizing, and accepting such terms you are 
-                further bound by such terms and no exceptions will be afforded to you.
+                By accessing and using TabShop's guides and resources, you agree to these terms of service. 
+                All guides are provided for educational purposes. Your success depends on your effort, market conditions, and ability to execute the strategies.
               </p>
               <ul className="space-y-3 ml-6">
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>You must not change any information on the account (name/email/password). Unless specified in the account description. If changed, warranty will be voided.</span>
+                  <span>All guides are digital products. Once purchased, they cannot be refunded. We guarantee the quality of our content.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>No Refunds. We stand behind everything we sell and we are sure about our products, if something is patched / doesn't work, it's removed from the shop.</span>
+                  <span>We are not responsible for how you use the information provided. Use all strategies legally and ethically.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>If an account stops working after 2 hours, SauceyShop and any parties associated are not entitled to replace it.</span>
+                  <span>Results vary based on individual effort, market conditions, and implementation. We don't guarantee specific earnings.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>All sales are final.</span>
+                  <span>All sales are final. Guides are updated regularly with new strategies and methods.</span>
                 </li>
                 <li className="flex items-start">
                   <span className="text-accent mr-2">•</span>
-                  <span>SauceyShop and any parties associated are not responsible for any buyer conduct after purchase.</span>
+                  <span>TabShop reserves the right to update or modify guides as market conditions change.</span>
                 </li>
               </ul>
             </div>
@@ -294,10 +287,10 @@ export default function Home() {
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-primary to-accent flex items-center justify-center">
                   <Zap className="w-6 h-6 text-white" />
                 </div>
-                <span className="text-xl font-bold gradient-text">SauceyShop</span>
+                <span className="text-xl font-bold gradient-text">TabShop</span>
               </div>
               <p className="text-sm text-muted-foreground leading-relaxed">
-                The digital plug for verified product drops, reseller packs, and launch playbooks designed to help your crew win faster.
+                Your trusted resource for proven money-making guides and strategies. We help you discover multiple income streams and build sustainable wealth.
               </p>
             </div>
             <div>
@@ -326,7 +319,7 @@ export default function Home() {
             </div>
           </div>
           <div className="pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
-            <p>© 2026 SauceyShop. All rights reserved.</p>
+            <p>© 2026 TabShop. All rights reserved.</p>
           </div>
         </div>
       </footer>
