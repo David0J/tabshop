@@ -7,6 +7,7 @@
 import { useEffect, useState } from "react";
 import { Button } from "@/components/ui/button";
 import { ProductCard } from "@/components/ProductCard";
+import { PurchaseModal } from "@/components/PurchaseModal";
 import { Accordion, AccordionContent, AccordionItem, AccordionTrigger } from "@/components/ui/accordion";
 import { Star, Globe, TrendingUp, Zap, ShieldCheck } from "lucide-react";
 
@@ -22,6 +23,8 @@ interface Product {
 export default function Home() {
   const [products, setProducts] = useState<Product[]>([]);
   const [loading, setLoading] = useState(true);
+  const [selectedProduct, setSelectedProduct] = useState<Product | null>(null);
+  const [isModalOpen, setIsModalOpen] = useState(false);
 
   useEffect(() => {
     fetch('/products.json')
@@ -126,7 +129,14 @@ export default function Home() {
           ) : (
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
               {products.map((product) => (
-                <ProductCard key={product.id} {...product} />
+                <ProductCard 
+                  key={product.id} 
+                  {...product}
+                  onBuyNow={() => {
+                    setSelectedProduct(product);
+                    setIsModalOpen(true);
+                  }}
+                />
               ))}
             </div>
           )}
@@ -264,6 +274,13 @@ export default function Home() {
           </div>
         </div>
       </footer>
+
+      {/* Purchase Modal */}
+      <PurchaseModal 
+        isOpen={isModalOpen}
+        onClose={() => setIsModalOpen(false)}
+        product={selectedProduct}
+      />
     </div>
   );
 }

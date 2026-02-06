@@ -13,9 +13,18 @@ interface ProductCardProps {
   price: number;
   inStock: boolean;
   category: string;
+  onBuyNow: () => void;
 }
 
-export function ProductCard({ title, description, price, inStock, category }: ProductCardProps) {
+interface ProductCardPropsOld {
+  title: string;
+  description: string;
+  price: number;
+  inStock: boolean;
+  category: string;
+}
+
+export function ProductCard({ title, description, price, inStock, category, onBuyNow }: ProductCardProps) {
   return (
     <div className="glass-card rounded-xl p-6 transition-all duration-300 ease-out hover:scale-[1.02] hover:shadow-2xl group">
       {/* Stock Badge */}
@@ -49,19 +58,13 @@ export function ProductCard({ title, description, price, inStock, category }: Pr
             ${price.toFixed(2)}
           </span>
         </div>
-        <a 
-          href={`https://t.me/alons0Dev?text=I'm%20interested%20in%20purchasing:%20${encodeURIComponent(title)}%20($${price.toFixed(2)})`}
-          target="_blank"
-          rel="noopener noreferrer"
-          className="block"
+        <Button 
+          className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity duration-300 shadow-lg w-full"
+          disabled={!inStock}
+          onClick={onBuyNow}
         >
-          <Button 
-            className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity duration-300 shadow-lg w-full"
-            disabled={!inStock}
-          >
-            Buy Now
-          </Button>
-        </a>
+          Buy Now
+        </Button>
       </div>
     </div>
   );
