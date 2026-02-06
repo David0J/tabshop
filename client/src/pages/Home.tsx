@@ -50,12 +50,13 @@ export default function Home() {
             </div>
             <div className="hidden md:flex items-center space-x-8">
               <a href="#home" className="text-sm text-foreground hover:text-primary transition-colors">Home</a>
-              <a href="#products" className="text-sm text-foreground hover:text-primary transition-colors">Products</a>
-              <a href="#features" className="text-sm text-foreground hover:text-primary transition-colors">Features</a>
+              <a href="#products" className="text-sm text-foreground hover:text-primary transition-colors">Guides</a>
               <a href="#faq" className="text-sm text-foreground hover:text-primary transition-colors">FAQ</a>
-              <Button size="sm" className="bg-gradient-to-r from-primary to-accent">
-                Contact
-              </Button>
+              <a href="https://t.me/alons0Dev" target="_blank" rel="noopener noreferrer">
+                <Button size="sm" className="bg-gradient-to-r from-primary to-accent">
+                  Contact
+                </Button>
+              </a>
             </div>
           </div>
         </div>
@@ -85,86 +86,24 @@ export default function Home() {
               Every guide is researched, tested, and regularly updated with the latest opportunities.
             </p>
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-              <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-lg px-8 py-6 luxury-shadow">
-                Start Browsing
-              </Button>
-              <Button size="lg" variant="outline" className="text-lg px-8 py-6 glass-card border-border/50">
-                Join the Community
-              </Button>
+              <a href="#products">
+                <Button size="lg" className="bg-gradient-to-r from-primary to-accent hover:opacity-90 text-lg px-8 py-6 luxury-shadow">
+                  Start Browsing
+                </Button>
+              </a>
+              <a href="https://t.me/thetabshop" target="_blank" rel="noopener noreferrer">
+                <Button size="lg" variant="outline" className="text-lg px-8 py-6 glass-card border-border/50">
+                  Join the Community
+                </Button>
+              </a>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Stats Section */}
-      <section className="py-16">
-        <div className="container">
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-5xl mx-auto">
-            <div className="glass-card rounded-2xl p-8 text-center luxury-shadow">
-              <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">8K+</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wider">Active Members</div>
-            </div>
-            <div className="glass-card rounded-2xl p-8 text-center luxury-shadow">
-              <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">5.0</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wider">Rating of Our Products</div>
-            </div>
-            <div className="glass-card rounded-2xl p-8 text-center luxury-shadow">
-              <div className="text-4xl md:text-5xl font-bold gradient-text mb-2">2023</div>
-              <div className="text-sm text-muted-foreground uppercase tracking-wider">Trusted Since</div>
-            </div>
-          </div>
-        </div>
-      </section>
 
-      {/* Features Section */}
-      <section id="features" className="py-24">
-        <div className="container">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-4">Core Plays</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
-              Four moves to keep your hustle scaling
-            </p>
-          </div>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
-            <div className="glass-card rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary to-accent flex items-center justify-center mb-6">
-                <Globe className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Global Opportunities</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Our guides cover money-making methods that work worldwide. Whether you're in North America, Europe, Asia, or anywhere else, find strategies tailored to your region.
-              </p>
-            </div>
-            <div className="glass-card rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-accent to-primary flex items-center justify-center mb-6">
-                <TrendingUp className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Sustainable Income Strategies</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Learn how to build passive income, start side hustles, and create multiple revenue streams that compound over time.
-              </p>
-            </div>
-            <div className="glass-card rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-primary via-accent to-primary flex items-center justify-center mb-6">
-                <Zap className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Quick-Start Methods</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Get started immediately with our quick-reference guides. See results within days, not months.
-              </p>
-            </div>
-            <div className="glass-card rounded-2xl p-8 hover:scale-105 transition-transform duration-300">
-              <div className="w-14 h-14 rounded-xl bg-gradient-to-br from-accent via-primary to-accent flex items-center justify-center mb-6">
-                <ShieldCheck className="w-7 h-7 text-white" />
-              </div>
-              <h3 className="text-xl font-semibold mb-3">Community-Verified Content</h3>
-              <p className="text-muted-foreground leading-relaxed">
-                Trusted by thousands of members worldwide. Our guides are continuously updated based on real-world results and community feedback.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
+
+
 
       {/* Products Section */}
       <section id="products" className="py-24 bg-gradient-to-b from-transparent to-secondary/10">
@@ -313,9 +252,11 @@ export default function Home() {
               <p className="text-sm text-muted-foreground mb-4">
                 Tell us what you're building and we'll match you with the right playbook.
               </p>
-              <Button className="bg-gradient-to-r from-primary to-accent w-full">
-                Contact Support
-              </Button>
+              <a href="https://t.me/alons0Dev" target="_blank" rel="noopener noreferrer" className="block">
+                <Button className="bg-gradient-to-r from-primary to-accent w-full">
+                  Contact Support
+                </Button>
+              </a>
             </div>
           </div>
           <div className="pt-8 border-t border-border/50 text-center text-sm text-muted-foreground">
