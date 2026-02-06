@@ -49,12 +49,19 @@ export function ProductCard({ title, description, price, inStock, category }: Pr
             ${price.toFixed(2)}
           </span>
         </div>
-        <Button 
-          className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity duration-300 shadow-lg"
-          disabled={!inStock}
+        <a 
+          href={`https://t.me/alons0Dev?text=I'm%20interested%20in%20purchasing:%20${encodeURIComponent(title)}%20($${price.toFixed(2)})`}
+          target="_blank"
+          rel="noopener noreferrer"
+          className="block"
         >
-          Buy Now
-        </Button>
+          <Button 
+            className="bg-gradient-to-r from-primary to-accent hover:opacity-90 transition-opacity duration-300 shadow-lg w-full"
+            disabled={!inStock}
+          >
+            Buy Now
+          </Button>
+        </a>
       </div>
     </div>
   );
